@@ -12,6 +12,7 @@
 - 실제 데이터를 활용하여 다양한 실험을 진행했으며, 이를 통해 NCF의 효과 증명
 
 ## Learining from implicit data
+![learning_from_implicit_data](https://user-images.githubusercontent.com/48994965/187858321-69539ef0-8782-44d7-a331-c0e8cea08086.png)
 - M과  N은 user와 item수, rating 데이터가 아니라 0과 1의 binary 데이터
 - user가 item을 관측했는지에 따라 0또는 1로 표현 → interaction이 있는지 여부를 표시함
 	- 선호, 비선호를 나타내는 것이 아님(implicit feedback data)
