@@ -12,7 +12,7 @@
 - 실제 데이터를 활용하여 다양한 실험을 진행했으며, 이를 통해 NCF의 효과 증명
 
 ## Learining from implicit data
-![learning_from_implicit_data](https://user-images.githubusercontent.com/48994965/187858321-69539ef0-8782-44d7-a331-c0e8cea08086.png)
+![learning_from_implicit_data](https://user-images.githubusercontent.com/48994965/187858321-69539ef0-8782-44d7-a331-c0e8cea08086.png){: width="80%" height="80%"}
 - M과  N은 user와 item수, rating 데이터가 아니라 0과 1의 binary 데이터
 - user가 item을 관측했는지에 따라 0또는 1로 표현 → interaction이 있는지 여부를 표시함
 	- 선호, 비선호를 나타내는 것이 아님(implicit feedback data)
@@ -22,7 +22,7 @@
 	- Pair-wise : 1이 0보다 큰 값을 갖도록 마진을 최대화
 
 ## Matrix Factorization
-![matrix_factoriazation](https://user-images.githubusercontent.com/48994965/187858584-897253b7-3d87-40b6-aa4c-03acf05a4b80.png)
+![matrix_factoriazation](https://user-images.githubusercontent.com/48994965/187858584-897253b7-3d87-40b6-aa4c-03acf05a4b80.png){: width="80%" height="80%"}
 - User-Item Interaction Matrix의 한계점
 	- u는 실제 userdlau u4는 u1과 유사도가 높고 다음으로 u3과 유사도가 높음
 	- 하지만 user latent space에서는 p4는 p1과 p2와 유사도가 높으며, p3과의 유사도가 가장 낮음
@@ -33,7 +33,7 @@
 - Non-linear한 Neural Network를 사용해서 복잡한 상관관계 표현
 
 ## Neural Collaborative Filtering - General Framework
-![general_framework](https://user-images.githubusercontent.com/48994965/187858656-abd6ac94-16e0-42bf-bd0f-0c3984876ba7.png)
+![general_framework](https://user-images.githubusercontent.com/48994965/187858656-abd6ac94-16e0-42bf-bd0f-0c3984876ba7.png){: width="80%" height="80%"}
 - Input Layer : user와 item을 one-hot vector로 표현
 - Embedding Layer : Sparse one-hot vector를 dense vector로 매핑
 - Neural CF Layer : User Latent Vector와 Item Latent Vector를 concat해서 Layer를 통과
