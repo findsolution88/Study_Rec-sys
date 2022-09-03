@@ -1,4 +1,1 @@
-# Implementation of recommendation system using various models
-
-
-You can check the implemented model in each folder.
+- 추천시스템에서 사용할 수 있는 모델을 설명과 함께 구현하였으며 각 폴더에서 상세한 내용 확인하실 수 있습니다.
