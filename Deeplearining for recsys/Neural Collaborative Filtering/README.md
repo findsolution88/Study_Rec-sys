@@ -61,8 +61,8 @@
 
 - Label이 Binary이기 때문에, Bernoulli Distribution을 사용
 - 아래 두 집단이 있음
-	- $\Upsilon = y_{ui} = 1$
-	- $\Upsilon^- = y_{ui} = 0$
+	- $\Upsilon = y_u\,_i = 1$
+	- $\Upsilon^- = y_u\,_i = 0$
 - Loss Function은 Binary cross entropy를 사용
 - 위의 L을 최소화 하는 파라미터를 찾음
 - 학습은 SGD를 사용
