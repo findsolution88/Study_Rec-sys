@@ -7,7 +7,7 @@
 - 사용자와 아이템이 같은 vector공간에 표현됨
 - 사용자와 아이템을 모르는 차원(demension)에 표현하고, 몇 개의 차원인지 모름
 - 같은 vector 공간에서 사용자와 아이템이 가까우면 유사, 떨어져 있으면 유사하지 않음
-<img src = "https://user-images.githubusercontent.com/48994965/188262984-58599ce3-103a-4986-9f82-24495b16d653.png" width="70%" height="70%">
+<img src = "https://user-images.githubusercontent.com/48994965/188262984-58599ce3-103a-4986-9f82-24495b16d653.png" width="60%" height="60%">
 
 <br/>
 
@@ -26,7 +26,7 @@ V^T$
   - 대각원소 = A의 특이값
 
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/48994965/188263418-05e88a5b-6ca3-460e-8337-be1e9bf86ff2.png" width="40%" height="40%">
+<img src = "https://user-images.githubusercontent.com/48994965/188263418-05e88a5b-6ca3-460e-8337-be1e9bf86ff2.png" width="30%" height="30%">
 <p/>
 
 - 차원축소기법(Dimensionality Reduction) 중 하나
@@ -57,12 +57,12 @@ V^T$
 - |U| x |I| : user-item rating matrix (rank k<n)
 - P -> |U| x k : matrix of user factors
 - Q -> |I| x k : matrix of item factors
-<img src = "https://user-images.githubusercontent.com/48994965/188263921-fe6d9138-23e1-4954-aca3-d24df95dd00c.png" width="70%" height="70%">
+<img src = "https://user-images.githubusercontent.com/48994965/188263921-fe6d9138-23e1-4954-aca3-d24df95dd00c.png" width="50%" height="50%">
 
 <br/>
 
 ## Matrix Factorization 정리
-<img src = "https://user-images.githubusercontent.com/48994965/188264010-d06cfed9-950d-42e4-9578-42d13a3b3e0e.png" width="80%" height="80%">
+<img src = "https://user-images.githubusercontent.com/48994965/188264010-d06cfed9-950d-42e4-9578-42d13a3b3e0e.png" width="60%" height="60%">
 
 - 분해한 행렬X와 Y를 곱하여 평점을 예측
 - 임의의 차원 수 f는 직접 정함
