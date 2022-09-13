@@ -12,8 +12,7 @@
 <br/>
 
 ## Singular Value Decomposision 개요
-$A=U\
-V^T$
+$A=U \Sigma V^T$
 
 - U는 고유값 분해로 얻dms mXm 직교행렬
   - $AA^T = U(\Sigma \Sigma^T)U^T$
