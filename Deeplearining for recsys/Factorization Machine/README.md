@@ -87,7 +87,7 @@
 
 - 2-way FM을 d-way FM으로 일반화 할 수 있음
 - d-way FM 또한 computation cost는 linear함
-- http://www.libfm.org에 다양하게 활용할 수 있음 module을 공개함
+- http://www.libfm.org 사이트에 다양하게 활용할 수 있음 module을 공개함
 
 <br/>
 
