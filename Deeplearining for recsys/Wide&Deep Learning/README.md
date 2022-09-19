@@ -4,12 +4,15 @@
 - Wide: Memorization
   - Cross-product feature transformation
   - More feature enginneering effot
+    - feature enginneering에 많은 노력을 들여야 하는 부분으로 모델의 단점이 될 수 있음
 - Deep: Gerneralization
   - Gerneralize to unseen feature combinations
   - Less feature engineering effort
   - Over-Gerneralize
+    - Embedding모델의 단점으로 feature의 일반화로 인한 단점 있음
 - Wide & Deep
   - Joint wide linear models and deep neural networks
+  - Wide와 Deep의 단점을 극복
 
 <br/>
 
@@ -17,16 +20,18 @@
 - Memorization의 정의
   - Frequent co-occurrence of items of features
   - Exploit correlation available in the historical data
+  - 기존 데이터안에서 feature의 특성을 학습
 - Generalization의 정의
   - Expore new feature combinations
+  - feature 간 조합을 통해 새로운 feature 학습
 - 추천시스템에서 Memorization과 Gerneralization
   - Memorization: more topical and directly relevant to the items
-  - Gereralization: improve diversity of the recommendations
+  - Gereralization: improve diversity of the  recommendations
 - Google Play Store의 apps recommendation 실험에서 gerneral하게 적용 가능 확인
 
 <br/>
 
-## Introduction (2)]
+## Introduction (2)
 - 기존 추천 모델의 한계
   1. Gernalized Linear Model
       - Logistic Regression과 같은 모델에 다양한 features를 만들어 학습시칸다
@@ -87,6 +92,7 @@ $y=w^tx+b$
 
 - Features를 임베딩과 뉴럴넷에 학습
   - **Gerneralization**
+
 $a^{l+1}= f(W^{(l)}a^{(l)}+b^{(l)}$
 - l은 number layers
 - f는 activation function(ReLU)
@@ -103,6 +109,9 @@ $a^{l+1}= f(W^{(l)}a^{(l)}+b^{(l)}$
 ### Joint Traing of Wide & Deep Model(2)
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/48994965/190841968-4e34cead-cf15-4856-be46-de5776fd390d.png">
 
+- back propagarion할 때 wide & deep 모두 동시에 진행함
+- wide파트에서는 Follow-the_regularizaed-leader(TFRL), deep파트에서는AdaGrad를 Optimizer로 사용
+
 ### Joint Traing of Wide & Deep Model(3)
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/48994965/190842011-9586238a-1ddf-4922-8e68-62a8d6fa7a77.png">
 
@@ -113,6 +122,7 @@ $a^{l+1}= f(W^{(l)}a^{(l)}+b^{(l)}$
 
 ### System Inplementation
 - pipe line은 아래와 같음
+- 추천시스템은 실제 서비스 적용에 중요한 의의가 있기 때문에 구글에서 Pipeline을 공유한 내용을 벤치마킹할 수 있음
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/48994965/190842078-6cab48e5-f0d6-4be5-8007-4dd6e9a85e5f.png">
 
 <br/>
