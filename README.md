@@ -6,6 +6,8 @@
   - [Wide&Deep Learning](https://github.com/findsolution88/Study_Rec-sys/tree/main/Deeplearining%20for%20recsys/Wide%26Deep%20Learning)
   - [Neural Collaborative Filtering](https://github.com/findsolution88/Study_Rec-sys/tree/main/Deeplearining%20for%20recsys/Neural%20Collaborative%20Filtering)
   - [Factorization Machine](https://github.com/findsolution88/Study_Rec-sys/tree/main/Deeplearining%20for%20recsys/Factorization%20Machine)
+  - [DeepFM](https://github.com/findsolution88/Study_Rec-sys/tree/main/Deeplearining%20for%20recsys/DeepFM)
+  - [AutoRec](https://github.com/findsolution88/Study_Rec-sys/tree/main/Deeplearining%20for%20recsys/AutoRec)
 
 - model based collaborative filtering
   - [Matrix Factorization](https://github.com/findsolution88/Study_Rec-sys/tree/main/model%20based%20collaborative%20filtering/Matrix%20Factorization)
